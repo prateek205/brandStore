@@ -48,6 +48,12 @@
   list-style: none;
   gap: 28px;
 }
+.navContent li {
+  padding: 5px 10px;
+}
+.navContent li:hover {
+  border: 2px solid black;
+}
 .navContent li a {
   text-decoration: none;
   color: var(--primary-color);
@@ -58,3 +64,5 @@
 #tv {
   text-transform: uppercase;
 }
+
+/* Hero Section */
