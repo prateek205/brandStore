@@ -1,5 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  --primary-color: #2c2c2c;
+  --secondary-color: #f6f6f6;
+
+  --primary-font: prateek-font;
+}
+
+@font-face {
+  font-family: prateek-font;
+  src: url("fonts/SamsungOne-700.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.brandLogo {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  width: 100%;
+  height: 70.5px;
+  object-fit: cover;
+}
+.navContent ul {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+}
+.navContent li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+#tv {
+  text-transform: uppercase;
 }
