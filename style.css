@@ -1,10 +1,11 @@
 :root {
   --primary-color: #2c2c2c;
-  --secondary-color: #f6f6f6;
+  --secondary-color: #f7f7f7;
 
   --primary-font: prateek-font;
 
   --primary-text-transform: capitalize;
+  --secondary-text-transform: uppercase;
 }
 
 @font-face {
@@ -20,7 +21,6 @@
 
 .mainContainer {
   width: 100%;
-  background-color: var(--secondary-color);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -28,6 +28,7 @@
 
 /* Navbar Section */
 .navbar {
+  background-color: var(--secondary-color);
   width: 90%;
   margin: auto;
   height: 10vh;
@@ -164,4 +165,35 @@ button:hover {
 .buying:hover {
   background-color: #fff;
   color: #000;
+}
+/* category list */
+.categoryContainer {
+  /* border: 1px solid black; */
+  width: 95%;
+  margin: auto;
+  height: 45vh;
+  margin-top: 1%;
+  font-family: var(--primary-font);
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoryCard {
+  /* border: 1px solid black; */
+  width: 23%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  align-items: center;
+  padding-top: 2%;
+  background-color: var(--secondary-color);
+}
+#cardCont {
+  text-transform: var(--primary-text-transform);
+}
+#cardImg {
+  width: 300px;
+  height: 500px;
+  object-fit: contain;
 }
