@@ -3,6 +3,8 @@
   --secondary-color: #f6f6f6;
 
   --primary-font: prateek-font;
+
+  --primary-text-transform: capitalize;
 }
 
 @font-face {
@@ -117,10 +119,49 @@ button:hover {
   width: 95%;
   margin: auto;
   height: 100vh;
-  border: 2px solid black;
   margin-top: 2%;
-  background-image: url("assets/samsungGalaxy.jpg");
-  background-position: center;
+  background-image: url("assets/galaxyS25.jpg");
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+  color: var(--secondary-color);
+}
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 15%;
+  padding-left: 5%;
+  font-family: var(--primary-font);
+  text-transform: var(--primary-text-transform);
+}
+#galaxy {
+  font-size: 50px;
+}
+#ai {
+  width: 28%;
+  font-size: 45px;
+  text-align: center;
+}
+.span {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-family: var(--primary-font);
+}
+.more {
+  color: var(--secondary-color);
+}
+.buying {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.buying:hover {
+  background-color: #fff;
+  color: #000;
 }
