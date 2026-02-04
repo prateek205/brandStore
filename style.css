@@ -112,3 +112,16 @@ button:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
+
+/* Content Section */
+.contentContainer {
+  width: 95%;
+  margin: auto;
+  height: 100%;
+  border: 2px solid black;
+  margin-top: 2%;
+  background-image: url("assets/samsungGalaxy.jpg");
+  background-position: center;
+  background-size: center;
+  background-repeat: no-repeat;
+}
