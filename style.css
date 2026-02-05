@@ -214,3 +214,14 @@ button:hover {
   height: 500px;
   object-fit: contain;
 }
+/* Vision AI container */
+.visionContainer {
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 1%;
+  background-image: url("assets/banner_d.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
