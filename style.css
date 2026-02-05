@@ -29,12 +29,13 @@
 /* Navbar Section */
 .navbar {
   background-color: var(--secondary-color);
-  width: 90%;
-  margin: auto;
+  width: 100%;
   height: 10vh;
   display: flex;
   align-items: center;
   gap: 40px;
+  position: sticky;
+  top: 0;
 }
 .brandLogo {
   width: 20%;
