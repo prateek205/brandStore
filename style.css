@@ -178,7 +178,7 @@ button:hover {
   background-color: #fff;
   color: #000;
 }
-/* category list */
+/* category list and home appliances */
 .categoryContainer {
   /* border: 1px solid black; */
   width: 95%;
@@ -207,6 +207,7 @@ button:hover {
   transform: scale(1.1);
 }
 #cardCont {
+  text-align: center;
   text-transform: var(--primary-text-transform);
 }
 #cardImg {
