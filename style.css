@@ -224,4 +224,43 @@ button:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 6%;
+  padding-bottom: 1%;
+  color: var(--secondary-color);
+  text-transform: var(--primary-text-transform);
+}
+#visionHeading {
+  font-size: 60px;
+  font-family: var(--primary-font);
+}
+#visionParagraph {
+  font-size: 22px;
+  font-family: var(--secondary-font);
+}
+p {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: var(--secondary-font);
+}
+#register {
+  border: none;
+  outline: none;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  text-transform: var(--primary-text-transform);
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  color: #fcfcfc;
+  cursor: pointer;
+}
+#register:hover {
+  background-color: #f7f7f7;
+  color: #000;
 }
